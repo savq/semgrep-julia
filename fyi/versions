@@ -1,34 +1,34 @@
 File: semgrep-grammars/src/tree-sitter-julia/LICENSE
 Git repo name: tree-sitter-julia
-Latest commit in repo: 87394e7ce3b1aca1a7c7912d2bbc599551591093
+Latest commit in repo: bb7e587837fdeda74dd510256253d60f59a1e2cd
 Last change in file:
-  commit 22e8889dc3718099e4dd14feb5930e84cf03fbb1
-  Author: Max Brunsfeld <maxbrunsfeld@gmail.com>
-  Date:   Tue Jul 21 10:27:50 2020 -0700
+  commit bb7e587837fdeda74dd510256253d60f59a1e2cd
+  Author: Yoann Padioleau <yoann.padioleau@gmail.com>
+  Date:   Fri Aug 18 11:24:13 2023 +0200
   
-      Add mit license file
+      Merge pull request #114 from brandonspark/brandon/separate-word-identifier
+      
+      distinguish `identifier` from word token
 ---
 File: semgrep-grammars/src/tree-sitter-julia/grammar.js
 Git repo name: tree-sitter-julia
-Latest commit in repo: 87394e7ce3b1aca1a7c7912d2bbc599551591093
+Latest commit in repo: bb7e587837fdeda74dd510256253d60f59a1e2cd
 Last change in file:
-  commit 5a3c32155f0ea5b2630cd6cd4f786633609bc2bd
-  Author: Sergio Alejandro Vargas <savargasqu+git@unal.edu.co>
-  Date:   Sat Mar 30 21:56:26 2024 -0500
+  commit bb7e587837fdeda74dd510256253d60f59a1e2cd
+  Author: Yoann Padioleau <yoann.padioleau@gmail.com>
+  Date:   Fri Aug 18 11:24:13 2023 +0200
   
-      Rename `bare_tuple` to `open_tuple`
+      Merge pull request #114 from brandonspark/brandon/separate-word-identifier
+      
+      distinguish `identifier` from word token
 ---
 File: semgrep-grammars/src/semgrep-julia/grammar.js
 Git repo name: ocaml-tree-sitter-semgrep
-Latest commit in repo: d56a90e587d198293212a634df2a6a790589b18c
+Latest commit in repo: dea26c1d0d5b007958b27d072c544f642af0af43
 Last change in file:
-  commit d56a90e587d198293212a634df2a6a790589b18c
-  Author: Sergio Alejandro Vargas <savargasqu+git@unal.edu.co>
-  Date:   Wed Jan 8 18:33:34 2025 -0500
+  commit 9eea15cb550d1be1d8880c1d4599fe4b2101f459
+  Author: brandonspark <wu.brandonj@gmail.com>
+  Date:   Tue Aug 29 10:41:54 2023 -0700
   
-      Update julia grammar
-      
-      Update the Julia grammar to tree-sitter-julia#135. That PR introduced
-      several breaking changes, including changes in the way function
-      signatures and parameters were parsed.
+      fix julia metavars
 ---
