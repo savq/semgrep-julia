@@ -1,34 +1,33 @@
 File: semgrep-grammars/src/tree-sitter-julia/LICENSE
 Git repo name: tree-sitter-julia
-Latest commit in repo: bb7e587837fdeda74dd510256253d60f59a1e2cd
+Latest commit in repo: 87394e7ce3b1aca1a7c7912d2bbc599551591093
 Last change in file:
-  commit bb7e587837fdeda74dd510256253d60f59a1e2cd
-  Author: Yoann Padioleau <yoann.padioleau@gmail.com>
-  Date:   Fri Aug 18 11:24:13 2023 +0200
+  commit 22e8889dc3718099e4dd14feb5930e84cf03fbb1
+  Author: Max Brunsfeld <maxbrunsfeld@gmail.com>
+  Date:   Tue Jul 21 10:27:50 2020 -0700
   
-      Merge pull request #114 from brandonspark/brandon/separate-word-identifier
-      
-      distinguish `identifier` from word token
+      Add mit license file
 ---
 File: semgrep-grammars/src/tree-sitter-julia/grammar.js
 Git repo name: tree-sitter-julia
-Latest commit in repo: bb7e587837fdeda74dd510256253d60f59a1e2cd
+Latest commit in repo: 87394e7ce3b1aca1a7c7912d2bbc599551591093
 Last change in file:
-  commit bb7e587837fdeda74dd510256253d60f59a1e2cd
-  Author: Yoann Padioleau <yoann.padioleau@gmail.com>
-  Date:   Fri Aug 18 11:24:13 2023 +0200
+  commit 5a3c32155f0ea5b2630cd6cd4f786633609bc2bd
+  Author: Sergio Alejandro Vargas <savargasqu+git@unal.edu.co>
+  Date:   Sat Mar 30 21:56:26 2024 -0500
   
-      Merge pull request #114 from brandonspark/brandon/separate-word-identifier
-      
-      distinguish `identifier` from word token
+      Rename `bare_tuple` to `open_tuple`
 ---
 File: semgrep-grammars/src/semgrep-julia/grammar.js
 Git repo name: ocaml-tree-sitter-semgrep
-Latest commit in repo: 091f5438fc0c15b80217f00e5b94ec0e55517383
+Latest commit in repo: 63c38b4cabb5dfd3d2ab41cfa24aa7490c7d15c9
 Last change in file:
-  commit 9eea15cb550d1be1d8880c1d4599fe4b2101f459
-  Author: brandonspark <wu.brandonj@gmail.com>
-  Date:   Tue Aug 29 10:41:54 2023 -0700
+  commit 63c38b4cabb5dfd3d2ab41cfa24aa7490c7d15c9
+  Author: Sergio Alejandro Vargas <savargasqu+git@unal.edu.co>
+  Date:   Thu Apr 24 10:29:03 2025 -0500
   
-      fix julia metavars
+      fix(julia): remove _statement extension
+      
+      The `_statement` rule doesn't need to be extended because statements are
+      expressions and the `_expression` rule is already extended.
 ---
