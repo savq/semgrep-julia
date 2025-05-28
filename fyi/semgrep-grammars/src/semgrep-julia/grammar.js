@@ -14,7 +14,7 @@ module.exports = grammar(base_grammar, {
      if they're not already part of the base grammar.
   */
   rules: {
-    semgrep_ellipsis: _ => '...',
+    semgrep_ellipsis: _ => prec(1, '...'),
 
     catch_clause: $ => prec(1, seq(
       'catch',
